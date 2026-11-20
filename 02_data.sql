@@ -78,12 +78,12 @@ VALUES
 INSERT INTO pickup
 (pickup_date, food_offer_id, driver_id, pickup_status)
 VALUES
-(CURRENT_DATE - 2,  1, 1, 'completed'),
-(CURRENT_DATE - 1,  2, 2, 'completed'),
+(CURRENT_DATE,      1, 1, 'completed'),
+(CURRENT_DATE,      2, 2, 'completed'),
 (CURRENT_DATE - 5,  3, 3, 'completed'),
 (CURRENT_DATE - 1,  4, 1, 'completed'),
 (CURRENT_DATE,      6, 4, 'completed'),
-(CURRENT_DATE - 3,  7, 5, 'completed'),
+(CURRENT_DATE,      7, 5, 'completed'),
 (CURRENT_DATE - 1,  9, 2, 'completed'),
 (CURRENT_DATE - 2, 10, 3, 'completed'),
 (CURRENT_DATE,     12, 4, 'completed'),
