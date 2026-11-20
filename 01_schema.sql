@@ -103,15 +103,3 @@ GROUP BY
     d.donor_name,
     fc.food_name,
     fo.offer_quantity;
-
-CREATE INDEX idx_food_offer_donor
-    ON food_offer(donor_id);
-
-CREATE INDEX idx_food_offer_use_by_date
-    ON food_offer(use_by_date);
-
-CREATE INDEX idx_pickup_status
-    ON pickup(pickup_status);
-
-CREATE INDEX idx_delivery_status
-    ON delivery(delivery_status);
